@@ -1,0 +1,22 @@
+nav {             /* Gray */
+    height:100px;
+    padding-left: 20px;
+    padding-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+      }
+  
+  nav > h1{         /* Red */
+    width:160px;
+    font-size: 1000px;
+    justify-self: left;
+  }
+
+body {  
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    }
+    @import url('');
