@@ -9,9 +9,25 @@
     <script src="main.js"></script>
     
 </head>
+    <div class="header">
+        <h1>KEMPER</h1>
+        <span>
+   
+        </span>
+    </div>
 <body>
-       <h1>KEMPER</h1>
-       <body style="background-color:#F2FAFF"></body>
+    <span>
+        <div class="navbar">
+            <a href="Products.html">CHAIRS</a>
+            
+            <a href="Products.html">SOFAS</a>
+            <a href="Products.html">CHAIRS</a>
+
+            
+          </div>
+    </span>
+    <div style="clear:both"></div>
+       <body style="background-color:#F2FAFF"></body> 
 
        <h2>"FOR</h2>
        <h3>OFFICE"</h3>
@@ -21,18 +37,16 @@
 
        <svg width="400" height="580">
         </svg> 
-    
 
+        
        <div style = "position:absolute; left:220px; top:-50px; z-index: -1;">
        <img src="chair.png" alt="chairleft" width="700px" height="950px"> 
        
        <div style = "position:absolute; left:250px; top:0px; z-index: -1;">
         <img src="CHAIR_FLIP.png" alt="chairleft" width="700px" height="950px">
-        
+    
 
         </script>
-
-        
 
 
        
@@ -42,7 +56,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
 
 
-
     h1 { 
   display: block;
   font-size: 50px;
@@ -50,6 +63,7 @@
   margin-bottom: 50px;
   margin-left: 20px;
   font-weight: bold;
+  position: fixed ;
     }
 
     h2 {
@@ -87,7 +101,54 @@ svg {
   z-index:-2;
 }
 
+.btnchairs {
+  border: none;
+  font-style: bold;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px ;
+}
+.btn:hover {background: #eee;}
+
+.chairs {color: black }
+.sofas {color: black;}
+.tables {color: black;}
+.bed_frames {color: black;}
+.mattresses {color: black;}
+.accessories {color: black}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: middle;
+  display: inline-flex;
+  color: black ;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-inline-start: 200px ;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
 </style>
+
 
 
        

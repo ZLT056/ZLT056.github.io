@@ -7,7 +7,13 @@ nav {             /* Gray */
         align-items: center;
         
       }
-  
+
+      .header h1 { 
+        display: inline;
+      }
+      .header span { 
+        margin-left: 100px ;
+      }
   nav > h1{         /* Red */
     width:160px;
     font-size: 1000px;
@@ -38,8 +44,21 @@ body {
             cursor: pointer;
           
           }
+          
 
-.button:hover {
-    filter: brightness(85%) ;
-
-}
+.btnchairs {
+    display: inline-flex;
+        border: none;
+        color: black ;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin-left: -350px ;
+        margin-top: -300px ;
+        cursor: pointer;
+      }
+.btnchairs:hover {
+    background: #eee;}
