@@ -12,20 +12,111 @@
     <body style="background-color:#F2FAFF"></body>
 
     <a href="KEMEPR.html" class="buttonMAIN">KEMPER</a>
+
+
+    
     <hr style="height:2px;border-width:0;color:gray;background-color:gray">
-    <hr style="margin-top:100px;margin-left:717px;height:2px;border-width:0;color:gray;background-color:gray">
-    <hr style="margin-top:100px;margin-left:717px;height:2px;border-width:0;color:gray;background-color:gray">
 
+          <!-- Trigger/Open The Modal -->
+
+<span>
+<button class="cartbtn" id="cartbtn">ADD TO CART</button>
+</span>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>ITEM ADDED TO BAG!</h1>
+    <hr>
+    <P>FLAT STOOL</P>
+    <br>
+    <br>
+    <div style = "position:absolute; left:30px; top:150px; z-index: 0;">
+        <img src="CHAIR 4_cropped.png" alt="chairleft" width="200px" height="200px"> 
+    <p></p>
+
+    <hr>
+    <br> 
+    <br> 
+
+    <p>FLAT STOOL</p>
+  </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cartbtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  
     <div class="vl"></div>
-    <div class="vl2"></div>
 
-
+    <div class="grid-container">
+        <div class="grid-item">A$ 1350</div>
+        <div class="grid-item">BLUE</div>
+        <br>
+        <div class="grid-item">- 1 +</div>  
+        <div class="grid-item"> </div>
+      </div>
+      
+      
 
     
 <style>
         @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
-        
-        
+
+p {
+    display: block;
+    margin-left: 350px ;
+}
+
+h1 {
+    display: block;
+    font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 0px;
+  grid-template-columns: 360px 360px auto;
+  padding: 10px;
+  margin-left: 706px;
+  margin-top: -204px;
+}
+
+.grid-item {
+  border: 1px solid grey;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
 
         svg {
   position: absolute;
@@ -94,18 +185,46 @@ body {margin:0;}
   top: 90px;
 }
 
-.vl2 {
-  border-left: 2px solid grey;
-  background-color: grey;
-  height: 205px;
-  position: absolute;
-  left: 75%;
-  margin-left: -3px;
-  top: 90px;
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 50%;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white ; /* Fallback color */
+  background-color: white; /* Black w/ opacity */
 }
 
+.modal-content {
+  background-color: #fefefe;
+  margin-top: -100px;
+  padding: 20px;
+  border: 2px solid #888;
+  width: 95%;
+  height: 94% ;
+}
 
-    
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 </style>
 
@@ -126,6 +245,11 @@ body {margin:0;}
       <div style = "position:absolute; left:-330px; top:-300px; z-index:-1 ;">
         <img src="CHAIR 4.png" width="1300px" height="1550px"> 
 
+
+
+ 
+
+        
 </body>
 
 
