@@ -26,7 +26,6 @@ body, table {
 .button:hover {
 filter: brightness(5%) ;
 
-
 }
 
 .return {
@@ -51,7 +50,7 @@ filter: brightness(5%) ;
         border: none;
         font-style: normal;
         color: white;
-        padding: 12px 47.5%;
+        padding: 12px 41.7%;
         text-align: center;
         vertical-align: center ;
         text-decoration: none;
@@ -68,7 +67,7 @@ filter: brightness(5%) ;
         border: none;
         font-style: normal;
         color: white;
-        padding: 12px 47.5%;
+        padding: 12px 41.7%;
         text-align: center;
         vertical-align: center ;
         text-decoration: none;
