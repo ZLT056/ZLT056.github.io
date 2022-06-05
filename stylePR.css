@@ -1,0 +1,30 @@
+
+
+
+body {  
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    }
+    @import url('');
+
+.buttonMAIN {
+    display: inline-flex;
+        border: none;
+        color: black ;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 50px;
+        margin-top: 2px ;
+        margin-left: 12px ;
+        cursor: pointer;
+      
+      }
+
+.button:hover {
+filter: brightness(5%) ;
+
+}
