@@ -53,15 +53,48 @@
      
           </td>
 
-
-          <td style="width:50%"> <h4>CONTINUE AS GUEST</h4>
-          <h5>CHECKOUT FASTER BY CREATING AN ACCOUNT</h5>
+<span>
+          <td style="width:50%"> <h4>PICKUP IN STORE</h4>
+          <h5>STORE ADDRESS <BR> <BR> 165 KEMPER DR. HAZARD, KY 41701 <BR> <BR> <BR> CONTACT NUMBER <BR><BR> (606) 439-2400
+          
+            <BR> <BR> <BR> <BR> <BR> OPERATING HOURS <BR> <BR> <pre>
+MONDAY                                   9AM-5PM
+TUESDAY                                  9AM-5PM
+WEDNESDAY                           9AM-5PM
+THURSDAY                               9AM-5PM
+FRIDAY                                      9AM-5PM
+SATURDAY                               9AM-5PM
+SUNDAY                                     CLOSED
+            
+            </pre>
+          
+          </h5>
 
           </td>
         </tr>
-      
-      </table>
+      </span>
+    </table>
 
+    <h1>PAYMENTS</h1>
+    <hr color="black">
+<BR>
+    <h11>CARD NUMBER</h11>
+    <br>
+      <input type="text4" id="fname" name="firstname" placeholder="XXXX XXXX XXXX XXXX">
+<BR>
+  <BR>
+  <h11>EXPIRY DATE</h11>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<h11>SECURITY CODE</h11>
+  <BR>
+  <input type="text5" id="fname" name="firstname" placeholder="MM/YY"> 
+  
+  <input type="text5" id="fname" name="firstname" placeholder="XXX">
+<br>
+
+<a href="Products.html" class="button">CONFIRM DETAILS</a>
+<BR>
+<a href="Products.html" class="backbtn">RETURN</a>
 
     <style>
 
@@ -85,21 +118,15 @@ h2 {
     font-size: 35px;
     text-align: left;
     margin-left: 10px ;
-    margin-top: 0px
+    margin-top: -160px
 }
-h2 {
-    display: block;
-    font-size: 35px;
-    text-align: left;
-    margin-left: 10px ;
-    margin-top: 0px
-}
+
 h3 {
     display: block;
     font-size: 15px;
     text-align: left;
     margin-left: 10px ;
-    margin-top: -30px;
+    margin-top: -100px;
     color: grey;
 
 }
@@ -107,10 +134,15 @@ h4 {
     display: block;
     font-size: 35px;
     text-align: left;
-    margin-left: 10px ;
-    margin-top: -305px
+    margin-left: 25px ;
+    margin-top: 10px
 }
+h5 {
 
+font-size: 20px ;
+margin-left: 30px;
+
+}
 h6 {
     display: block;
     font-size: 15px;
@@ -135,8 +167,16 @@ h9 {
     margin-left: -10px ;
     margin-top: 30px
 }
-
-
+h10 {
+  font-size: 35px;
+  margin-top: 30px;
+  text-align: center;
+}
+h11 {
+  font-size: 20px;
+  color: grey;
+  margin-left: 30px;
+}
 input[type=text], select {
   width: 100%;
   display: inline-block;
@@ -172,6 +212,31 @@ input[type=text3], select {
   border: 1px solid BLACK ;
   box-sizing: border-box;
   margin-left: -10px;
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+input[type=text4], select {
+  width: 43%;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid BLACK ;
+  box-sizing: border-box;
+  margin-left: 30px;
+  font-size: 16px;
+  margin-top: 25px;
+}
+input[type=text5], select {
+  width: 20.3%;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: 1px solid BLACK ;
+  box-sizing: border-box;
+  margin-left: 30px;
   font-size: 16px;
   margin-top: 25px;
 }
@@ -263,7 +328,7 @@ div {
     content: '';
     position: absolute;
     left: -13px ;
-    top: -15px;
+    top: -136px;
     margin: 4px;
     width: 22px;
     height: 22px;
@@ -283,7 +348,7 @@ div {
     transition: transform ease 0.25s;
     will-change: transform;
     position: absolute;
-    top: -4px;
+    top: -125px;
     left: -2px;
 }
 .checkbox input[type="checkbox"]:checked ~ label::before {
@@ -314,11 +379,7 @@ div {
 }
 
 
-
-
     </style>
-
-
 
 
 
@@ -404,8 +465,6 @@ div {
     document.addEventListener("click", closeAllSelect);
     </script>
     
-    
-
 
 </body>
 </html>

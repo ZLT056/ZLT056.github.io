@@ -1,7 +1,7 @@
 
 
 
-body {  
+body, pre, table {  
     font-family: 'Almarai', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
     font-size: 22px;
@@ -47,3 +47,34 @@ filter: brightness(5%) ;
         cursor: pointer;
       
       }
+
+      .ctnsp {
+            border: none;
+            color: black ;
+            padding: 0.3% 0px;
+            text-align: center;
+            vertical-align: center ;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 35px;
+            cursor: pointer;
+            background-color: white;
+          }
+    .ctnsp:hover {
+        color: black; opacity: 50%;
+    }
+
+    .ptcbtn {
+        border: none;
+        color: black ;
+        padding: 2.3% 29.9%;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 35px;
+        cursor: pointer;
+        background-color: rgb(176, 255, 176);
+      }
+.ptcbtn:hover {
+    color: black; opacity: 50%;
+}
