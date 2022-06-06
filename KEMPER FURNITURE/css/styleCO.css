@@ -39,7 +39,7 @@ filter: brightness(5%) ;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        margin-top: 0px ;
+        margin-top: -3% ;
         margin-left: -10px ;
         cursor: pointer;
       
@@ -54,9 +54,7 @@ filter: brightness(5%) ;
         text-align: center;
         vertical-align: center ;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
-        margin-top: 21px ;
         margin-left: 10px ;
         cursor: pointer;
       
@@ -71,9 +69,8 @@ filter: brightness(5%) ;
         text-align: center;
         vertical-align: center ;
         text-decoration: none;
-        display: inline-block;
         font-size: 16px;
-        margin-top: 98px ;
+        margin-top: 200px ;
         margin-left: 10px ;
         cursor: pointer;
       
