@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product View</title>
+    <link rel="stylesheet" href="../CSS/stylePV.css">
+</head>
+
+<body>
+    <body style="background-color:#F2FAFF"></body>
+
+    <a href="../index.html" class="buttonMAIN">KEMPER</a>
+    
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+          <!-- Trigger/Open The Modal -->
+
+<span>
+<button class="cartbtn" id="cartbtn">ADD TO CART</button>
+</span>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h1>ITEM ADDED TO BAG!</h1>
+    <hr>
+    <P>FLAT STOOL</P>
+    <br>
+    <br>
+    <div style = "position:absolute; left:30px; top:150px; z-index: 0;">
+        <img src="../PIC/CHAIR 4_cropped.png" alt="chairleft" width="200px" height="200px"> 
+        <a href="Shoppingcart.html" class="ptcbtn">VIEW CART</a>
+        
+    <p></p>
+
+    <hr>
+    <br> 
+    <br> 
+
+    <p>FLAT STOOL</p>
+  </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal(POPUP)
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("cartbtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  
+    <div class="vl"></div>
+
+    <div class="grid-container">
+        <div class="grid-item">A$ 1350</div>
+        <div class="grid-item">BLUE</div>
+        <br>
+        <div class="grid-item">- 1 +</div>  
+        <div class="grid-item"> </div>
+      </div>
+      
+      
+
+    
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
+
+p {
+    display: block;
+    margin-left: 350px ;
+}
+
+h1 {
+    display: block;
+    font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 0px;
+  grid-template-columns: 360px 360px auto;
+  padding: 10px;
+  margin-left: 706px;
+  margin-top: -204px;
+}
+
+.grid-item {
+  border: 1px solid grey;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+        svg {
+  position: absolute;
+  top: 240px;
+  left: 420px;
+  width: 540px;
+  height: 370px;
+  background: #E2F4FF;
+  z-index:-2;
+}
+
+.btnchairs {
+  border: none;
+  font-style: bold;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px ;
+}
+.btn:hover {background: #eee;}
+
+.chairs {color: black }
+.sofas {color: black;}
+.tables {color: black;}
+.bed_frames {color: black;}
+.mattresses {color: black;}
+.accessories {color: black}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 70%;
+  margin-left: 250px ;
+  margin-top: 20px ;
+}
+
+.navbar a {
+  float: middle;
+  display: inline-flex;
+  color: black ;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-inline-start: 40px ;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  background-color: grey;
+  height: 1000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 90px;
+}
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 50%;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white ; /* Fallback color */
+  background-color: white; /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-top: -100px;
+  padding: 20px;
+  border: 2px solid #888;
+  width: 95%;
+  height: 94% ;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+</style>
+
+
+<span>
+    <div class="navbar">
+        <a href="Products.html">CHAIRS</a>
+        <a href="Products.html">SOFAS</a>
+        <a href="Products.html">TABLES</a>
+        <a href="Products.html">BED FRAMES</a> 
+        <a href="Products.html">MATTRESSES</a>
+        <a href="Products.html">ACCESSORIES</a>
+      </div>
+
+
+
+
+      <div style = "position:absolute; left:-330px; top:-300px; z-index:-1 ;">
+        <img src="../PIC/CHAIR 4.png" width="1300px" height="1550px"> 
+
+
+
+ 
+
+        
+</body>
+
+
+
+</html>
