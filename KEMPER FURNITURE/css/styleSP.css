@@ -20,8 +20,8 @@ body, table, pre {
       
       }
 
-.button:hover {
-filter: brightness(5%) ;
+.buttonMAIN:hover {
+filter: brightness(50%) ;
 
 }
 
