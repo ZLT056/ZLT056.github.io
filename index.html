@@ -19,6 +19,29 @@
     <div class="header">
         <h1>KEMPER</h1>
 
+        <button class="openbtn" onclick="openNav()">☰</button>  
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <hr>
+          <a href="/KEMPER FURNITURE/html/Products.html">CHAIRS</a>
+          <hr>
+          <a href="/KEMPER FURNITURE/html/Products.html">SOFAS</a>
+          <hr>
+          <a href="/KEMPER FURNITURE/html/Products.html">TABLES</a>
+          <hr>
+          <a href="/KEMPER FURNITURE/html/Products.html">BED FRAMES</a>
+          <hr>
+          <a href="/KEMPER FURNITURE/html/Products.html">MATTRESSES</a>
+          <hr>
+          <a href="/KEMPER FURNITURE/html/Products.html">ACCESSORIES</a>
+          <hr>
+          <BR>
+          <a href="/KEMPER FURNITURE/html/Products.html">VIEW CART</a>
+          <br>
+          <hr>
+          <H7>$AUD</H7>
+          <hr>
+        </div>
       </div>
 <body>
 
@@ -40,7 +63,7 @@
        <h5> <br> </h5>
        <h2>"FOR</h2>
        <h3>OFFICE"</h3>
-       <h4>SS/22</h4>
+       <h4 class="subt">SS/22</h4>
 
        <a href="/KEMPER FURNITURE/html/Products.html" class="button">EXPOLRE</a>
 
@@ -49,6 +72,7 @@
 
        <div class="pic3" style = "position:absolute; left:220px; top:-50px; z-index: -1;">
        <img src="/KEMPER FURNITURE/pic/chairr.png" id="chairleft" width="700px" height="950px"> 
+       
        
        <div class="pic2" style = "position:absolute; left:280px; top:0px; z-index: -1;">
         <img src="/KEMPER FURNITURE/pic/CHAIR_FLIP.png" id="chairleft" width="700px" height="950px">
@@ -65,61 +89,16 @@
  <!-- BELOW ARE CODES FOR MOBILE -->
  
 
-          <!-- Trigger/Open The Modal -->
-
-<span>
-  <button class="cartbtn" id="cartbtn">MENU</button>
-  </span>
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-  
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <a href="/KEMPER FURNITURE/html/Shoppingcart.html" class="viewcart">VIEW SHOPPING CART</a>
-      <br>
-      <br> 
-          
-      <p></p>
-  
-    
-      <br> 
-      <br> 
-  
-      <p>FLAT STOOL</p>
-    </div>
-    </div>
-  
-  </div>
-  
-  <script>
-  // Get the modal(POPUP)
-  var modal = document.getElementById("myModal");
-  
-  // Get the button that opens the modal
-  var btn = document.getElementById("cartbtn");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks the button, open the modal 
-  btn.onclick = function() {
-    modal.style.display = "block";
+<script>
+  function openNav() {
+    document.getElementById("mySidepanel").style.width = "250px";
   }
   
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-    modal.style.display = "none";
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
+  function closeNav() {
+    document.getElementById("mySidepanel").style.width = "0";
   }
   </script>
-
+     
 
 </body>
 </html>
