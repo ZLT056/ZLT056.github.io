@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
 nav {             /* Gray */
     height:100px;
     padding-left: 20px;
@@ -46,6 +47,8 @@ body {
           }
           
 
+       
+    
 .btnchairs {
     display: inline-flex;
         border: none;
@@ -62,3 +65,200 @@ body {
       }
 .button:hover {
     background: #eee;}
+
+   .cartbtn {
+            border: none;
+            color: black ;
+            background-color: #E2F4FF;
+            padding: 0px 0px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 0.5% ;
+            margin-left: 9% ;
+            cursor: pointer;
+          
+          }
+
+    h1 { 
+  display: block;
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  font-weight: bold;
+  position: fixed ;
+    }
+
+    h2 {
+  display: block;
+  font-size: 100px;
+  margin-top: 200px;
+  margin-bottom: 0px;
+  margin-left: 350px;
+  font-weight: bold;
+}
+    h3 {
+  display: block;
+  font-size: 100px;
+  margin-top: -80px;
+  margin-bottom: 0px;
+  margin-left: 650px;
+  font-weight: bold;
+}
+
+    h4 {
+  display: block;
+  font-size: 50px;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  margin-left: 620px;
+  font-weight: bold;
+}
+
+.button2 {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+
+}
+
+svg {
+  position: absolute;
+  top: 240px;
+  left: 420px;
+  width: 540px;
+  height: 370px;
+  background: #E2F4FF;
+  z-index:-2;
+}
+
+.btnchairs {
+  border: none;
+  font-style: bold;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px ;
+}
+.btn:hover {background: #eee;}
+
+.chairs {color: black }
+.sofas {color: black;}
+.tables {color: black;}
+.bed_frames {color: black;}
+.mattresses {color: black;}
+.accessories {color: black}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 90%;
+  margin-left: 250px ;
+  margin-top: 20px ;
+}
+
+.navbar a {
+  float: middle;
+  display: inline-flex;
+  color: black ;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-inline-start: 40px ;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  right: 1%;
+  top: 11%;
+  width: 20%; /* Full width */
+  height: 40%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white ; /* Fallback color */
+  background-color: white; /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-top: -100px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  height: 50% ;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px){
+  .navbar2{
+        display: none;
+  }
+  }
+
+  @media only screen and (max-width: 768px){
+    .navbar{
+          display: none;
+    }
+    }
+
+
+    @media only screen and (min-width: 768px){
+      .cartbtn{
+            display: none;
+      }
+      }  
+      @media only screen and (min-width: 768px){
+        .svg{
+              display: none;
+        }
+        }       
+        @media only screen and (max-width: 768px){
+          .button {
+                display: none;
+          }
+          }
+          
+          @media only screen and (max-width: 768px){
+           .pic {
+                  display: none;
+            }
+            }  
+            @media only screen and (max-width: 768px){
+              .pic2 {
+                     display: none;
+               }
+               }  

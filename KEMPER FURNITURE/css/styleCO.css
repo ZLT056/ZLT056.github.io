@@ -1,4 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
 
+
+
+table, th, td {
+border:2px solid black  ;
+border-collapse: collapse;
+}
+
+h1 {
+display: block;
+font-size: 40px;
+text-align: center;
+}
+
+
+h2 {
+    display: block;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 10px ;
+    margin-top: 0px
+}
+h3 {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px ;
+    margin-top: 0px;
+    color: grey;
+}
+h4 {
+    display: block;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 10px ;
+    margin-top: -5% ;
+}
+h5 {
+    display: block;
+    color:grey ;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px ;
+    margin-top: 30px
+}
+
+p {
+    display: block;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 10px ;
+    margin-top: 115px
+}
+
+h7 {
+    display: block;
+    font-size: 20px;
+    color: grey;
+    text-align: left;
+    margin-left: 10px ;
+    margin-top: -8px
+
+}
+
+
+input[type=text], select {
+  width: 100%;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border: 1px solid BLACK ;
+  box-sizing: border-box;
+  margin-left: -10px;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(96, 140, 233);
+  color: white;
+  padding: 14px 20px;
+  margin: 180px 0;
+  border: none;
+  cursor: pointer;
+  margin-left: -10px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: bold;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(96, 140, 233);
+}
+
+
+div {
+  padding: 20px;
+}
 
 
 body, table {  

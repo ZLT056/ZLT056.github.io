@@ -1,3 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
+
+p {
+    display: block;
+    margin-left: 350px ;
+}
+
+h1 {
+    display: block;
+    font-size: 30px;
+}
+h2 {
+  font-size: 60px;
+  text-align: right;
+  margin-right: 22%;
+  margin-top: 0%;
+}
+h3 {
+  font-size: 60px;
+  text-align: right;
+  margin-right: 30.2%;
+  margin-top: -3%;
+}
+h4 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 21.5%;
+  margin-top: -3%;
+}
+h5 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 52.8%;
+  margin-top: -3%;
+}
+
+.grid-container {
+  display: grid;
+  row-gap: 0px;
+  grid-template-columns: 360px 360px auto;
+  padding: 10px;
+  margin-left: 706px;
+  margin-top: -204px;
+}
+
+.grid-item {
+  border: 1px solid grey;
+  padding: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+        svg {
+  position: absolute;
+  top: 240px;
+  left: 420px;
+  width: 540px;
+  height: 370px;
+  background: #E2F4FF;
+  z-index:-2;
+}
+
+.btnchairs {
+  border: none;
+  font-style: bold;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 20px ;
+}
+.btn:hover {background: #eee;}
+
+.chairs {color: black }
+.sofas {color: black;}
+.tables {color: black;}
+.bed_frames {color: black;}
+.mattresses {color: black;}
+.accessories {color: black}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 70%;
+  margin-left: 250px ;
+  margin-top: 20px ;
+}
+
+.navbar a {
+  float: middle;
+  display: inline-flex;
+  color: black ;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-inline-start: 40px ;
+  
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  background-color: grey;
+  height: 730px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 90px;
+}
+
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 49.7%;
+  top: 11%;
+  width: 50%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: white ; /* Fallback color */
+  background-color: white; /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-top: -100px;
+  padding: 20px;
+  border: 2px solid #888;
+  width: 100%;
+  height: 105% ;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  content: "";
+  display: table;
+  margin-left: 13% ;
+  margin-top: -13%
+}
+.column2 {
+  content: "";
+  display: table;
+  margin-left: 6% ;
+  margin-top: -13%
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-front {
+  margin-top: -100%;
+  margin-left: -17%;
+}
+.flip-box-back {
+  margin-top: -162%;
+  margin-left: 35% ;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+}
 nav {
     height:100px;
     padding-left: 20px;

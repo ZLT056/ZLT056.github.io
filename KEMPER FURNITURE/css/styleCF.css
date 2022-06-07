@@ -1,6 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
 
-
+h1 {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    }
+    h2 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    }
+    h3 {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    color: grey;
+    margin-top: -3%;
+    }
+    .buttonMAIN {
+        display: inline-flex;
+            border: none;
+            color: black ;
+            padding: 0px 0px;
+            text-align: center;
+            vertical-align: center ;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 50px;
+            margin-top: 2px ;
+            margin-left: 12px ;
+            cursor: pointer;
+          
+          }
+    
+    .buttonMAIN:hover {
+    filter: brightness(5%) ;
+    
+    }
+    .cfmbtn:hover {
+    filter: brightness(50%) ;
+    
+    }
+    .rtnbtn:hover {
+    filter: brightness(50%) ;
+    
+    }
+    .cfmbtn {
+            color: black ;
+            background-color: rgb(176, 255, 176);
+            padding: 1% 10%;
+            display: inline-block;
+            text-decoration: none;
+            font-size: 30px;
+            cursor: pointer;
+            margin-left: 31.2% ;
+          }
+    .rtnbtn {
+        color: black;
+        background-color: grey;
+        padding: 1% 5%;
+        display:inline-block;
+        text-decoration: none;
+        font-size: 25px;
+        cursor: pointer;
+        margin-left: 41.3%;
+    }
+    
 body, pre, table {  
     font-family: 'Almarai', sans-serif;
     font-family: 'Nunito Sans', sans-serif;
@@ -29,3 +94,4 @@ filter: brightness(5%) ;
 
 
 }
+

@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEMPER FURNITURE</title>
     <link rel="stylesheet" href="/KEMPER FURNITURE/css/styleKF.css">
-<link rel="stylesheet" media="screen and (min-width: 768px)" href="/KEMPER FURNITURE/css/MBstyleKF.css">
-    <script src="main.js"></script>
+    <link rel="stylesheet" 
+    media="screen and (max-width: 768px)" 
+    href="/KEMPER FURNITURE/css/MBstyleKF.css">
+    <script src="/KEMPER FURNITURE/main.js"></script>
+    <link rel="stylesheet" 
+    media="screen and (max-width: 768px)" 
+    href="/KEMPER FURNITURE/main.js">
     
     
 </head>
@@ -17,7 +22,7 @@
       </div>
 <body>
 
-    <span>
+    <span>       
         <div class="navbar">
             <a href="/KEMPER FURNITURE/html/Products.html">CHAIRS</a>
             <a href="/KEMPER FURNITURE/html/Products.html">SOFAS</a>
@@ -25,9 +30,9 @@
             <a href="/KEMPER FURNITURE/html/Products.html">BED FRAMES</a> 
             <a href="/KEMPER FURNITURE/html/Products.html">MATTRESSES</a>
             <a href="/KEMPER FURNITURE/html/Products.html">ACCESSORIES</a>
-            
-          </div>
-
+        </div>
+      </span>
+          
     </span>
     <div style="clear:both"></div>
        <body style="background-color:#F2FAFF"></body> 
@@ -39,128 +44,82 @@
 
        <a href="/KEMPER FURNITURE/html/Products.html" class="button">EXPOLRE</a>
 
-       <svg width="400" height="580">
+       <svg class="pic1" width="400" height="580">
         </svg> 
 
-        
-       <div style = "position:absolute; left:220px; top:-50px; z-index: -1;">
-       <img src="/KEMPER FURNITURE/pic/chairr.png" alt="chairleft" width="700px" height="950px"> 
+       <div class="pic3" style = "position:absolute; left:220px; top:-50px; z-index: -1;">
+       <img src="/KEMPER FURNITURE/pic/chairr.png" id="chairleft" width="700px" height="950px"> 
        
-       <div style = "position:absolute; left:280px; top:0px; z-index: -1;">
-        <img src="/KEMPER FURNITURE/pic/CHAIR_FLIP.png" alt="chairleft" width="700px" height="950px">
+       <div class="pic2" style = "position:absolute; left:280px; top:0px; z-index: -1;">
+        <img src="/KEMPER FURNITURE/pic/CHAIR_FLIP.png" id="chairleft" width="700px" height="950px">
 
 
         <span>
-          <div style = "position: absolute; left:-105px; top:230px; z-index: -1;">
+          <div class="pic2" style = "position: absolute; left:-105px; top:230px; z-index: -1;">
           <img src="/KEMPER FURNITURE/pic/FRAME.png" alt="Frame" width="650px" height="450px">
         </span>
-        
-        
-  
-        </script>
-
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
-
-
-    h1 { 
-  display: block;
-  font-size: 50px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  font-weight: bold;
-  position: fixed ;
-    }
-
-    h2 {
-  display: block;
-  font-size: 100px;
-  margin-top: 200px;
-  margin-bottom: 0px;
-  margin-left: 350px;
-  font-weight: bold;
-}
-    h3 {
-  display: block;
-  font-size: 100px;
-  margin-top: -80px;
-  margin-bottom: 0px;
-  margin-left: 650px;
-  font-weight: bold;
-}
-
-    h4 {
-  display: block;
-  font-size: 50px;
-  margin-top: -10px;
-  margin-bottom: 0px;
-  margin-left: 620px;
-  font-weight: bold;
-}
-svg {
-  position: absolute;
-  top: 240px;
-  left: 420px;
-  width: 540px;
-  height: 370px;
-  background: #E2F4FF;
-  z-index:-2;
-}
-
-.btnchairs {
-  border: none;
-  font-style: bold;
-  background-color: inherit;
-  padding: 14px 28px;
-  font-size: 15px;
-  cursor: pointer;
-  display: inline-block;
-  margin-left: 20px ;
-}
-.btn:hover {background: #eee;}
-
-.chairs {color: black }
-.sofas {color: black;}
-.tables {color: black;}
-.bed_frames {color: black;}
-.mattresses {color: black;}
-.accessories {color: black}
-
-body {margin:0;}
-
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin-left: 250px ;
-  margin-top: 20px ;
-}
-
-.navbar a {
-  float: middle;
-  display: inline-flex;
-  color: black ;
-  text-align: center ;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  margin-inline-start: 40px ;
-  
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-
-</style>
-
+        </div>
 
 <hr style="margin-top:100px;margin-left:717px;height:2px;border-width:0;color:gray;background-color:gray">
-       
+
+ <!-- BELOW ARE CODES FOR MOBILE -->
+ 
+
+          <!-- Trigger/Open The Modal -->
+
+<span>
+  <button class="cartbtn" id="cartbtn">MENU</button>
+  </span>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <a href="/KEMPER FURNITURE/html/Shoppingcart.html" class="viewcart">VIEW SHOPPING CART</a>
+      <br>
+      <br> 
+          
+      <p></p>
+  
+    
+      <br> 
+      <br> 
+  
+      <p>FLAT STOOL</p>
+    </div>
+    </div>
+  
+  </div>
+  
+  <script>
+  // Get the modal(POPUP)
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("cartbtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
 </body>
 </html>
