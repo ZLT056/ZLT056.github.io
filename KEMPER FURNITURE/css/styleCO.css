@@ -29,7 +29,7 @@ filter: brightness(5%) ;
 }
 
 .return {
-        background-color: rgb(96, 140, 233);
+        background-color: grey ;
         border: none;
         font-style: normal;
         color: white;
