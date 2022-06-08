@@ -6,14 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product View</title>
     <link rel="stylesheet" href="../css/stylePV.css">
+    <link rel="stylesheet" 
+    media="screen and (max-width: 768px)" 
+    href="../css/MBstylePV.css">
+    <script src="/KEMPER FURNITURE/main.js"></script>
+    <link rel="stylesheet" 
+    media="screen and (max-width: 768px)" 
+    href="/KEMPER FURNITURE/main.js">
 </head>
 
 <body>
     <body style="background-color:#F2FAFF"></body>
 
-    <a href="/index.html" class="buttonMAIN">KEMPER</a>
+    <span><a href="/index.html" class="buttonMAIN">KEMPER</a> <button class="openbtn" onclick="openNav()">☰</button></span>
+
+
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <hr>
+      <a href="/KEMPER FURNITURE/html/Products.html">CHAIRS</a>
+      <hr>
+      <a href="/KEMPER FURNITURE/html/Products.html">SOFAS</a>
+      <hr>
+      <a href="/KEMPER FURNITURE/html/Products.html">TABLES</a>
+      <hr>
+      <a href="/KEMPER FURNITURE/html/Products.html">BED FRAMES</a>
+      <hr>
+      <a href="/KEMPER FURNITURE/html/Products.html">MATTRESSES</a>
+      <hr>
+      <a href="/KEMPER FURNITURE/html/Products.html">ACCESSORIES</a>
+      <hr>
+      <BR>
+      <a href="/KEMPER FURNITURE/html/Products.html">VIEW CART</a>
+      <br>
+      <hr>
+      <H7>$AUD</H7>
+      <hr>
+    </div>
     
-    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+    <hr class="hl" style="height:2px;border-width:0;color:gray;background-color:gray">
 
           <!-- Trigger/Open The Modal -->
 
@@ -27,14 +58,14 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <h1>ITEM ADDED TO BAG!</h1>
-    <hr>
+    <hr class="hl">
     <P>FLAT STOOL</P>
     <br>
     <br> 
    
     <div style = "position:absolute; left:30px; top:150px; z-index: 0;">
         <img src="../pic/CHAIR 4_cropped.png" alt="chairleft" width="200px" height="200px"> 
-         <hr>
+         <hr class="hl">
         <a href="Shoppingcart.html" class="ptcbtn">VIEW CART</a>
         
     <p></p>
@@ -49,7 +80,60 @@
 
 </div>
 
+  
+    <div class="vl"></div>
+
+    <div class="grid-container">
+        <div class="grid-item">A$ 1350</div>
+        <div class="grid-item">BLUE</div>
+        <br>
+        <div class="grid-item">- 1 +</div>  
+        <div class="grid-item"> </div>
+      </div>
+
+
+      <span>
+<h2>FLAT STOOL</h2>
+<h3>A$ 1250</h3>
+
+<br>
+<br>
+
+<h4>PRODUCT DETAILS</h4>
+<h5>SIZE 20CM X 20CM X 50CM <BR> WEIGHT 1.2KG <BR> MATERIAL FABRIC</h5>
+
+      </span>
+ 
+     
+<span> 
+    <div class="navbar">
+        <a href="Products.html">CHAIRS</a>
+        <a href="Products.html">SOFAS</a>
+        <a href="Products.html">TABLES</a>
+        <a href="Products.html">BED FRAMES</a> 
+        <a href="Products.html">MATTRESSES</a>
+        <a href="Products.html">ACCESSORIES</a>
+        
+      </div>
+
+      <div class="row">
+        <div class="column">
+       
+<div class="flip-box">
+  <div class="flip-box-inner">
+
+    <div class="flip-box-front">
+
+      <img class="flipfrontimage" src="../pic/CHAIR 4_cropped.png" alt="CHAIR1" style="width:400px;height:450px">
+    </div>
+    <div class="flip-box-back">
+      <img src="../pic/stoolshot2.png" alt="CHAIR1" style="width:550px;height:650px">
+    </div>
+  </div>
+</div>
+
 <script>
+
 // Get the modal(POPUP)
 var modal = document.getElementById("myModal");
 
@@ -76,56 +160,20 @@ window.onclick = function(event) {
   }
 }
 </script>
-  
-    <div class="vl"></div>
-
-    <div class="grid-container">
-        <div class="grid-item">A$ 1350</div>
-        <div class="grid-item">BLUE</div>
-        <br>
-        <div class="grid-item">- 1 +</div>  
-        <div class="grid-item"> </div>
-      </div>
 
 
-      <span>
-<h2>FLAT STOOL</h2>
-<h3>A$ 1250</h3>
+<div class="flip-box2">
+  <div class="flip-box-inner2">
 
-<br>
-<br>
+    <div class="flip-box-front2">
 
-<h4>PRODUCT DETAILS</h4>
-<h5>SIZE 20CM X 20CM X 50CM <BR> WEIGHT 1.2KG <BR> MATERIAL FABRIC</h5>
-
-      </span>
-
-<span>
-    <div class="navbar">
-        <a href="Products.html">CHAIRS</a>
-        <a href="Products.html">SOFAS</a>
-        <a href="Products.html">TABLES</a>
-        <a href="Products.html">BED FRAMES</a> 
-        <a href="Products.html">MATTRESSES</a>
-        <a href="Products.html">ACCESSORIES</a>
-        
-      </div>
-
-      <div class="row">
-        <div class="column">
-       
-<div class="flip-box">
-  <div class="flip-box-inner">
-    <div class="flip-box-front">
-
-      <img src="../pic/CHAIR 4_cropped.png" alt="CHAIR1" style="width:400px;height:450px">
+      <img src="../pic/CHAIR 4_cropped.png" alt="CHAIR1" style="width:200px;height:250px">
     </div>
-    <div class="flip-box-back">
-      <img src="../pic/stoolshot2.png" alt="CHAIR1" style="width:550px;height:650px">
+    <div class="flip-box-back2">
+      <img src="../pic/stoolshot2.png" alt="CHAIR1" style="width:250px;height:350px">
     </div>
   </div>
 </div>
-
         
 </body>
 

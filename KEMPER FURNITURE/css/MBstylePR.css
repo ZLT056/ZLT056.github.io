@@ -6,7 +6,7 @@
       .sidepanel  {
         width: 0;
         position: fixed;
-        z-index: 1;
+        z-index: 2;
         height: 70%;
         top: 0;
         left: 0;
@@ -15,6 +15,7 @@
         transition: 0.5s;
         padding-top: 60px;
         align-items: center;
+
       }
       
       .sidepanel a {
@@ -24,6 +25,7 @@
         color: black;
         display: block;
         transition: 0.3s;
+        z-index: 2;
       }
       
       .sidepanel a:hover {

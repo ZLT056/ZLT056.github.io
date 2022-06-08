@@ -292,3 +292,78 @@ filter: brightness(50%) ;
 
 
 
+@media only screen and (max-width: 768px){
+  .modal{
+        display: none;
+  }
+  }
+  @media only screen and (max-width: 768px){
+    .navbar{
+          display: none;
+    }
+    }
+    @media only screen and (max-width: 768px){
+      .vl{
+            display: none;
+      }
+      }
+      @media only screen and (max-width: 768px){
+        .hl{
+              display: none;
+        }
+        }
+        @media only screen and (min-width: 768px){
+          .openbtn {
+                 display: none;
+           }
+           }
+           
+           @media only screen and (min-width: 768px){
+              .sidepanel{
+                    display: none;
+              }
+              }  
+
+              @media only screen and (min-width: 768px){
+                .flip-box2{
+                      display: none;
+                }
+                }  
+                @media only screen and (min-width: 768px){
+                  .flip-box-back2{
+                        display: none;
+                  }
+                  }  
+                  @media only screen and (min-width: 768px){
+                    .flip-box-front2{
+                          display: none;
+                    }
+                    }  
+                    @media only screen and (min-width: 768px){
+                      .flip-box-inner2{
+                            display: none;
+                      }
+                      }  
+
+                      @media only screen and (max-width: 768px){
+                        .flip-box{
+                              display: none;
+                        }
+                        }  
+                        @media only screen and (max-width: 768px){
+                          .flip-box-back{
+                                display: none;
+                          }
+                          }  
+                          @media only screen and (max-width: 768px){
+                            .flip-box-front{
+                                  display: none;
+                            }
+                            }  
+                            @media only screen and (max-width: 768px){
+                              .flip-box-inner{
+                                    display: none;
+                              }
+                              }  
+
+                              

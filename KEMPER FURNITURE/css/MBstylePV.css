@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0%;
+    top: 0%;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white ; /* Fallback color */
+    background-color: white; /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin-top: -100px;
+    padding: 20px;
+    border: 2px solid #888;
+    width: 100%;
+    height: 105% ;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    height: 70%;
+    top: 0;
+    left: 0;
+    background-color: rgb(176, 255, 176);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    align-items: center;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #F2FAFF;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    margin-left: -30%;
+    margin-top: 4%;
+    float: right;
+  }
+  
+  .openbtn:hover {
+    background-color:#F2FAFF;
+  }
+  
+.buttonMAIN {
+    display: inline-flex;
+        border: none;
+        color: black ;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 2.7% ;
+        margin-left: 18.4px ;
+        cursor: pointer;
+        float: left;
+      
+      }
+
+.buttonMAIN:hover {
+filter: brightness(5%) ;
+}
+
+.flip-box2 {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box2:hover .flip-box-inner2 {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front2, .flip-box-back2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .flip-box-front2 {
+    margin-top: -260%;
+    margin-left: -5%;
+  }
+  .flip-box-back2 {
+    margin-top: -280%;
+    margin-left: 4% ;
+  }
+  
+  .flip-box-back2 {
+    transform: rotateY(180deg);
+  }
+
+
+  .grid-container {
+    display: grid;
+    row-gap: 0px;
+    grid-template-columns: 200px 200px auto;
+    padding: 10px;
+    margin-left: -9%;
+    margin-top: -33%;
+  }
+  
+  .grid-item {
+    border: 1px solid grey;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .cartbtn {
+    border: none;
+    color: black ;
+    padding: 0px 0px;
+    background-color: rgb(176, 255, 176);
+    text-align: center;
+    vertical-align: center ;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 110% ;
+    margin-left: 55% ;
+    cursor: pointer;
+    z-index: 2;
+  
+  }
+
+.cartbtn:hover {
+filter: brightness(50%) ;
+
+}
+
+h2 {
+
+    font-size: 35px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 4%
+}
+
+h3 {
+
+    font-size: 35px;
+    float: left;
+    margin-left: 4%;
+    margin-top: -5%
+}
+h4 {
+
+    font-size: 20px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%
+}
+h5 {
+
+    font-size: 20px;
+    float: left;
+    margin-left: 4%;
+    margin-top: 2%
+}
