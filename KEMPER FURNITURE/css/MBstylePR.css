@@ -1,25 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
 
 
-table, td, th {
-    border: 1px solid;
-    text-align: left;
-    }
+
+
+      .sidepanel  {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 70%;
+        top: 0;
+        left: 0;
+        background-color: rgb(176, 255, 176);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        align-items: center;
+      }
+      
+      .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidepanel a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+      }
+      
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #F2FAFF;
+        color: black;
+        padding: 10px 15px;
+        border: none;
+        margin-left: 40%;
+        margin-top: -13.4%;
+        float: right;
+      }
+      
+      .openbtn:hover {
+        background-color:#F2FAFF;
+      }
+      
+      .buttonMAIN {
+        display: inline-flex;
+            border: none;
+            color: black ;
+            padding: 0px 0px;
+            text-align: center;
+            vertical-align: center ;
+            text-decoration: none;
+            font-size: 40px;
+            margin-top: 1% ;
+            margin-left: 12px ;
+            cursor: pointer;
+            float: left;
+          
+          }
     
-    table {
-    width: 50% ;
-    border-collapse: collapse;
-    }
-    td {
-    height: 0px;
-    vertical-align:  baseline;
-    }
+    .buttonMAIN:hover {
+    filter: brightness(5%) ;
     
-    tr {
-    height: 100% ;
-    font-size: 25px ;
     }
-    
-    th, td {
-    padding: 20px;
-    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      .table3 {
+
+        margin-left: 0.5%;
+        margin-top: 0%;
+        height: 50%;
+        position: relative;
+      }
+      .NAME {
+
+        font-size: 65%;
+        margin-top: -100px ;
+
+      }
