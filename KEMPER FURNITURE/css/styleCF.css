@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
-
+ /* Importing of font and formating texts */
 h1 {
     display: block;
     font-size: 40px;
@@ -43,7 +43,7 @@ h1 {
     }
     .rtnbtn:hover {
     filter: brightness(50%) ;
-    
+     /* Designing the two button, continue and return */
     }
     .cfmbtn {
             color: black ;
@@ -65,7 +65,7 @@ h1 {
         cursor: pointer;
         margin-left: 41.3%;
     }
-
+ /* Applying fonts */
 body, pre, table {  
     font-family: 'Almarai', sans-serif;
     font-family: 'Nunito Sans', sans-serif;

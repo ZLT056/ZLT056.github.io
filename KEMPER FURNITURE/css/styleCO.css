@@ -63,7 +63,7 @@ h7 {
 
 }
 
-
+ /* Formatting the input boxes, of their length, position etc. */
 input[type=text], select {
   width: 100%;
   display: inline-block;

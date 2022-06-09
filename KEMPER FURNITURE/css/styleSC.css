@@ -83,7 +83,7 @@ filter: brightness(5%) ;
       
       }
 
-      .ctnsp {
+      .ctnsp {  /* designing button that takes user to shipping page */
             border: none;
             color: black ;
             padding: 0.3% 0px;

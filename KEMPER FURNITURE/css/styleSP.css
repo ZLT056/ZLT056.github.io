@@ -89,7 +89,7 @@ h13 {
   margin-left: 12.9% ;
   color: grey;
 }
-input[type=text], select {
+input[type=text], select {  /* Formatting the input boxes*/
   width: 100%;
   display: inline-block;
   padding: 12px 20px;

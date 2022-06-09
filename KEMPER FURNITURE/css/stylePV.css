@@ -40,7 +40,7 @@ h6 {
   margin-top: 5%;
 }
 
-.grid-container {
+.grid-container {  /* Formatting the grid used to display price, color etc.  */
   display: grid;
   row-gap: 0px;
   grid-template-columns: 360px 360px auto;
@@ -127,7 +127,7 @@ body {margin:0;}
 }
 
 
-.modal {
+.modal {  /* Designing the pop up of the shopping cart */
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -141,7 +141,7 @@ body {margin:0;}
   background-color: white; /* Black w/ opacity */
 }
 
-.modal-content {
+.modal-content {  /* Elements that will only show inside of the modal */
   background-color: #fefefe;
   margin-top: -100px;
   padding: 20px;
@@ -150,7 +150,7 @@ body {margin:0;}
   height: 150% ;
 }
 
-.close {
+.close {  /* Close button */
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -158,7 +158,7 @@ body {margin:0;}
   top: 20%;
 }
 
-.close:hover,
+.close:hover,  /* hovering effect when cursor is hovering */
 .close:focus {
   color: #000;
   text-decoration: none;
@@ -169,7 +169,7 @@ body {margin:0;}
   box-sizing: border-box;
 }
 
-.column {
+.column {  /* Column used for the split screen */
   content: "";
   display: table;
   margin-left: 13% ;
@@ -182,9 +182,9 @@ body {margin:0;}
   margin-top: -13%
 }
 
-.flip-box {
+.flip-box {  /* Layout of the flipping image that can display front and back */
   background-color: transparent;
-  width: 300px;
+  width: 300px;  /* Dimensions of the actual flipping box */
   height: 200px;
   perspective: 1000px;
 }
@@ -199,27 +199,27 @@ body {margin:0;}
 }
 
 .flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg);  /* Effect shown when the action is triggered */
 }
 
 .flip-box-front, .flip-box-back {
-  position: absolute;
+  position: absolute;  /* layout of the front and back of the box */
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 .flip-box-front {
-  margin-top: -100%;
+  margin-top: -100%;  /* Layout of the front image */
   margin-left: -17%;
 }
 .flip-box-back {
-  margin-top: -162%;
+  margin-top: -162%; /* Layout of the rear image */
   margin-left: 35% ;
 }
 
 .flip-box-back {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg); /* Effect for the rear of the flipbox */
 }
 nav {
     height:100px;
@@ -285,7 +285,7 @@ filter: brightness(50%) ;
 
 }
 
-.ptcbtn {
+.ptcbtn {  /* Designing the button that adds the product to cart */
   border: none;
   color: black ;
   padding: 0px 0px;
@@ -297,7 +297,7 @@ filter: brightness(50%) ;
   bottom: 5%;
   cursor: pointer;
 }
-.viewcart {
+.viewcart {  /* Designing the button that takes the customer to shopping cart */
   border: none;
   color: black ;
   padding: 0px 0px;
