@@ -68,7 +68,7 @@ input[type=text4], select {
     content: '';
     position: absolute;
     left: -13px ;
-    top: -136px;
+    top: -50px;
     margin: 4px;
     width: 22px;
     height: 22px;
@@ -88,7 +88,7 @@ input[type=text4], select {
     transition: transform ease 0.25s;
     will-change: transform;
     position: absolute;
-    top: 0px;
+    top: 150px;
     left: 200px;
     float: left;
 }
