@@ -9,18 +9,17 @@
     <link rel="stylesheet" 
     media="screen and (max-width: 768px)" 
     href="../css/MBstylePV.css">
-    <script src="/KEMPER FURNITURE/main.js"></script>
-    <link rel="stylesheet" 
-    media="screen and (max-width: 768px)" 
-    href="/KEMPER FURNITURE/main.js">
 </head>
 
 <body>
+   <!-- Background color of the whole site -->
     <body style="background-color:#F2FAFF"></body>
 
+     <!-- LOGO on the top left corner also acting as a universal button to return to homepage -->
+      <!-- The menu logo is also on the same line, though only visible when the site is in mobile phone size -->
     <span><a href="/index.html" class="buttonMAIN">KEMPER</a> <button class="openbtn" onclick="openNav()">☰</button></span>
 
-
+ <!-- The tab options originally showing on the desktop version relocates to the menu tab in smartphone display size -->
     <div id="mySidepanel" class="sidepanel">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <hr>
@@ -37,6 +36,7 @@
       <a href="/KEMPER FURNITURE/html/Products.html">ACCESSORIES</a>
       <hr>
       <BR>
+         <!-- Additional View CART option avaliable which directs consumer straight to their shopping cart -->
       <a href="/KEMPER FURNITURE/html/Shoppingcart.html">VIEW CART</a>
       <br>
       <hr>
@@ -44,12 +44,12 @@
     
     <hr class="hl" style="height:2px;border-width:0;color:gray;background-color:gray">
 
-          <!-- Trigger/Open The Modal -->
+          <!-- Trigger/Open The Modal which indicates that the item has been added to the cart successfully -->
 
 <span>
 <button class="cartbtn" id="cartbtn">ADD TO CART</button>
 </span>
-<!-- The Modal -->
+<!-- The Modal will show a preview of the shopping cart. Displaying the items added to the cart and the estimated total cost-->
 <div id="myModal" class="modal">
 
   <!-- Modal content -->
@@ -60,10 +60,10 @@
     <P>FLAT STOOL <br> <br> COLOUR BLACK <BR> <BR> - 1 + </P>
     <br>
     <br> 
-   
+    <!-- product imgaes included in the preview -->
     <div style = "position:absolute; left:30px; top:150px; z-index: 0;">
         <img src="../pic/CHAIR 4_cropped.png" alt="chairleft" width="200px" height="200px"> 
-        
+         <!-- &emsp creating spaces to format the pricing and titles -->
         <p>A$ 1250 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
@@ -84,7 +84,7 @@
           &emsp;&emsp;A$ 6490</h6>
           <hr class="hl" width="100%">
 
-
+ <!-- VIEW CART button on the bottom of MODAL brings user to the full shopping cart -->
             <a class="viewcart" href="/KEMPER FURNITURE/html/Shoppingcart.html">VIEW CART</a>
             <br>
             <br>
@@ -100,18 +100,19 @@
   <div class="modal-content1">
     <h1>ITEM ADDED TO BAG!</h1>
     <hr class="hl2">
+      <!-- &emsp adding spaces to texts in order to format better -->
     <P>FLAT STOOL &emsp;&emsp;&emsp;&emsp; <br><br>A$ 1250</P> <br> <h7>COLOR BLACK</h7><p>- 1 +</p>
 
+      <!-- Horizontal lines -->
     <hr class="hl2">
    
+     <!-- Added images -->
     <div style = "position:absolute; left:30px; top:150px; z-index: 0;">
         <img src="../pic/CHAIR 4_cropped.png" alt="chairleft" width="100px" height="100px"> 
          <hr class="hl">
         
-        
-    <p></p>
-
   
+   <!-- BR adding blank lines to the website to format the interface -->
     <br> 
     <br> 
 
@@ -132,7 +133,7 @@
   </div>
   </div>
 
- 
+  <!-- TWO options for the mobile interface modal. Which allows the user to return to the product viewing page or continue to cart -->
   
  <a class="go2cart" href="/KEMPER FURNITURE/html/Shoppingcart.html">VIEW CART</a>
  <a class="gobk" href="/KEMPER FURNITURE/html/PRODUCTVIEW.html">BACK</a>
@@ -157,6 +158,7 @@
   
     <div class="vl"></div>
 
+     <!-- The 2 x 2 grid creates the table that shows the infomation about the product. Price, color, No., and the option to add to cart -->
     <div class="grid-container">
         <div class="grid-item">A$ 1350</div>
         <div class="grid-item">BLUE</div>
@@ -178,7 +180,7 @@
 
       </span>
  
-     
+      <!-- the navigation bar -->
 <span> 
     <div class="navbar">
         <a href="Products.html">CHAIRS</a>
@@ -193,6 +195,9 @@
       <div class="row">
         <div class="column">
        
+      <!-- Allows the image displayed to be interactive -->  
+       <!-- If on computer, hovering the mouse over the image will flip the image to the back, revealing another image -->
+        <!-- If on smartphone, clicking the image will perform the same. Clicking elsewhere on the screen flips the image back -->   
 <div class="flip-box">
   <div class="flip-box-inner">
 
@@ -205,35 +210,6 @@
     </div>
   </div>
 </div>
-
-<script>
-
-// Get the modal(POPUP)
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("cartbtn");
-
-// Get the <span> element that closes the modal
-
-  var span = document.getElementsByClassName("close")[0];
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 
 
 <div class="flip-box2">
@@ -249,6 +225,9 @@ window.onclick = function(event) {
   </div>
 </div>
         
-</body>
 
+<script src="/KEMPER FURNITURE/JAVA/PV.js" type="text/javascript"></script>
+
+</body>
+<script></script>
 </html>

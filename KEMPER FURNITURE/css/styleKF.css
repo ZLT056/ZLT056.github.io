@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
-nav {             /* Gray */
+nav {     /* Navigation bar settings and layouts */
     height:100px;
     padding-left: 20px;
     padding-right: 20px;
@@ -12,16 +12,16 @@ nav {             /* Gray */
       .header h1 { 
         display: inline;
       }
-      .header span { 
+      .header span {  /* Layout for the logo/header */
         margin-left: 100px ;
       }
-  nav > h1{         /* Red */
+  nav > h1{ 
     width:160px;
     font-size: 1000px;
     justify-self: left;
   }
 
-  @import url('');
+  @import url('');  /* import of font */
 
 body {  
     font-family: 'Almarai', sans-serif;
@@ -29,6 +29,7 @@ body {
     font-size: 22px;
     }
   
+     /* Formatting and desining the EXPLORE button which leads user to products page */
     .button {
         display: inline-flex;
             background-color: black;
@@ -46,40 +47,8 @@ body {
           
           }
           
-
-       
-    
-.btnchairs {
-    display: inline-flex;
-        border: none;
-        color: black ;
-        padding: 0px 0px;
-        text-align: center;
-        vertical-align: center ;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin-left: -350px ;
-        margin-top: -300px ;
-        cursor: pointer;
-      }
-.button:hover {
-    background: #eee;}
-
-   .cartbtn {
-            border: none;
-            color: black ;
-            background-color: #E2F4FF;
-            padding: 0px 0px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 20px;
-            margin-top: 0.5% ;
-            margin-left: 9% ;
-            cursor: pointer;
           
-          }
-
+ /* Formatting the texts and position */
     h1 { 
   display: block;
   font-size: 50px;
@@ -143,6 +112,7 @@ svg {
   display: inline-block;
   margin-left: 20px ;
 }
+ /* Indicates with a darker shades on the tabs when the curser is hovering over them */
 .btn:hover {background: #eee;}
 
 .chairs {color: black }
@@ -180,6 +150,7 @@ body {margin:0;}
   color: black;
 }
 
+ /* design of the search bar */
 .SEARCH {
   float: right;
   margin-right: 12%;
@@ -190,7 +161,7 @@ body {margin:0;}
     width: 10%;
   }
 
-
+ /* hiding and showing navigation bars, menu popup and search during desktop and smartphone modes */
 @media only screen and (min-width: 768px){
   .navbar2{
         display: none;
