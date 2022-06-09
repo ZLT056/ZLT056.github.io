@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
+
+
+   body, pre, table {  
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    }
+    @import url('');
+
+    .buttonMAIN {
+        display: inline-flex;
+            border: none;
+            color: black ;
+            padding: 0px 0px;
+            text-align: center;
+            vertical-align: center ;
+            text-decoration: none;
+            font-size: 40px;
+            margin-top: 1% ;
+            margin-left: 12px ;
+            cursor: pointer;
+            float: left;
+          
+          }
+    
+    .buttonMAIN:hover {
+    filter: brightness(5%) ;
+    
+    }
+
+    h1 {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+       float: left;
+        }
+
+        .T2 {
+            margin-top: -20.5%;
+        }
+
+
+        h2 {
+            font-size: 25px ;
+            margin-top: 1%;
+            margin-left: 2% ;
+            }
+            h3 {
+                font-size: 20px;
+                margin-left: 2%
+                }
+
+
+.ctnsp {
+        border: none;
+        color: black ;
+        padding: 0.3% 0px;
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        background-color: white;
+      }
+.ctnsp:hover {
+    color: black; opacity: 50%;
+}
+
+.ptcbtn {
+    border: none;
+    color: black ;
+    padding: 4% 15.4%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(176, 255, 176);
+  }
+.ptcbtn:hover {
+color: black; opacity: 50%;
+}

@@ -112,3 +112,62 @@ filter: brightness(5%) ;
 .ptcbtn:hover {
     color: black; opacity: 50%;
 }
+
+
+@media only screen and (max-width: 768px){
+    .T1 {
+           display: none;
+     }
+     }  
+
+     @media only screen and (min-width: 768px){
+        .T2 {
+               display: none;
+         }
+         }  
+             @media only screen and (max-width: 768px){
+                .LINE1 {
+                       display: none;
+                 }
+                 }
+                 
+                 @media only screen and (max-width: 768px){
+                .TITLE {
+                       display: none;
+                 }
+                 }  
+                 @media only screen and (min-width: 768px){
+                    .LINE2 {
+                           display: none;
+                     }
+                     }  
+                     @media only screen and (min-width: 768px){
+                        .SPACE {
+                               display: none;
+                         }
+                         }  
+                         @media only screen and (min-width: 768px){
+                            .SPACE2 {
+                                   display: none;
+                             }
+                             }  
+                         @media only screen and (max-width: 768px){
+                            .PCtotal {
+                                   display: none;
+                             }
+                             }  
+                             @media only screen and (max-width: 768px){
+                                .PCshipping {
+                                       display: none;
+                                 }
+                                 }  
+                                 @media only screen and (min-width: 768px){
+                                    .MBtotal {
+                                           display: none;
+                                     }
+                                     }  
+                                     @media only screen and (min-width: 768px){
+                                        .MBshipping {
+                                               display: none;
+                                         }
+                                         }  
