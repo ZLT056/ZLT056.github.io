@@ -350,3 +350,36 @@ filter: brightness(50%) ;
             cursor: pointer;
           
           }
+
+
+
+
+
+          @media only screen and (max-width: 768px){
+            .TABLE0 {
+                   display: none;
+             }
+             }  
+
+             @media only screen and (min-width: 768px){
+              .TABLE1 {
+                     display: none;
+               }
+               }  
+
+               @media only screen and (min-width: 768px){
+                .h12 {
+                       display: none;
+                 }
+                 }  
+
+                 @media only screen and (min-width: 768px){
+                  .MBTEXT {
+                         display: none;
+                   }
+                   }  
+                   @media only screen and (max-width: 768px){
+                    .PCTEXT {
+                           display: none;
+                     }
+                     }  
