@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Nunito+Sans:wght@700;900&display=swap');
+
+body, pre, table {  
+    font-family: 'Almarai', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    }
+    @import url('');
+
+input[type=text], select {
+    width: 95%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid BLACK ;
+    box-sizing: border-box;
+    margin-left: 12px;
+    font-size: 16px;
+    margin-top: 25px;
+  }
+
+
+  .buttonMAIN {
+        border: none;
+        color: black ;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 2px ;
+        margin-right: 8px ;
+        cursor: pointer;
+        float: right;
+      }
+      .buttonMAIN2 {
+        border: none;
+        color: black ;
+        padding: 0px 0px;
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 2px ;
+        margin-left: 8px ;
+        cursor: pointer;
+        float: left;
+      }
+
+.buttonMAIN:hover {
+filter: brightness(50%) ;
+
+}
