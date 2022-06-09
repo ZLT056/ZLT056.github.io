@@ -3,11 +3,11 @@
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 0; /* Sit on top */
+    z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0%;
     top: 0%;
-    width: 50%; /* Full width */
+    width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: white ; /* Fallback color */
@@ -19,19 +19,21 @@
     margin-top: -100px;
     padding: 20px;
     border: 2px solid #888;
-    width: 100%;
-    height: 105% ;
+    width: 90%;
+    height: 120% ;
+    z-index: 1;
   }
   
-  .close {
+  .close1 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-left: -2%;
   }
   
-  .close:hover,
-  .close:focus {
+  .close1:hover,
+  .close1:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
@@ -45,7 +47,7 @@
 .sidepanel  {
     width: 0;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
     height: 70%;
     top: 0;
     left: 0;
@@ -162,6 +164,7 @@ filter: brightness(5%) ;
     padding: 10px;
     margin-left: -9%;
     margin-top: -33%;
+    z-index: -1;
   }
   
   .grid-item {
@@ -169,6 +172,7 @@ filter: brightness(5%) ;
     padding: 20px;
     font-size: 20px;
     text-align: center;
+    z-index: -1;
   }
 
   .cartbtn {
@@ -183,7 +187,7 @@ filter: brightness(5%) ;
     margin-top: 110% ;
     margin-left: 55% ;
     cursor: pointer;
-    z-index: 2;
+    z-index: 1;
   
   }
 
@@ -203,7 +207,10 @@ filter: brightness(50%) ;
     bottom: 5%;
     cursor: pointer;
   }
-
+h1 {
+    margin-top: -20%;
+    margin-left: 3%;
+}
 h2 {
 
     font-size: 35px;
@@ -234,3 +241,78 @@ h5 {
     margin-top: 2%
 }
 
+h7 {
+
+    font-size: 15px;
+    margin-left: 50%;
+}
+
+p{
+    font-size: 18px;
+    margin-left: 50%;
+}
+
+h6 {
+    font-size: 18px;
+    margin-left: 116%;
+    margin-top: 0%;
+}
+
+h8 {
+   font-size: 18px;
+    margin-left: 116%;
+    margin-top: -58%;
+}
+
+h9 {
+    font-size: 18px;
+     margin-left: 5%;
+     margin-top: -58%;
+ }
+
+ h10 {
+    font-size: 15px;
+     margin-left: 116%;
+     margin-top: -58%;
+ }
+ h11 {
+    font-size: 15px;
+     margin-left: 5%;
+     margin-top: -58%;
+ }
+
+ h12 {
+    font-size: 15px;
+     margin-left: 116%;
+     margin-top: -58%;
+ }
+
+ h14 {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: -5%;
+ }
+
+h15 {
+    margin-left: 30.7%;
+    margin-top: -50%;
+    font-size:10px;
+    color: grey;
+}
+
+ .go2cart {
+    display: inline-flex;
+        border: none;
+        color: black ;
+        padding: 0px 0px;
+        background-color: rgb(176, 255, 176);
+        text-align: center;
+        vertical-align: center ;
+        text-decoration: none;
+        font-size: 40px;
+        margin-top: 90% ;
+        margin-left: 19% ;
+        cursor: pointer;
+        float: left;
+      
+      }
